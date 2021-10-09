@@ -1,0 +1,97 @@
+.header {
+  background-color: #313131;
+  padding: 10px 5px;
+
+  & .container {
+    display: flex;
+  }
+
+  &-logo {
+    fill: #fff;
+    margin-right: 20px;
+  }
+
+  &-arrow {
+    width: 10px;
+    height: 5px;
+    fill: #d2d2d2;
+    cursor: pointer;
+  }
+
+  &-nav {
+    display: flex;
+    margin-right: 15%;
+
+    &-item {
+      line-height: 2;
+      vertical-align: bottom;
+      margin-right: 20px;
+    }
+
+    &-link {
+      color:#fff;
+      vertical-align: middle;
+    }
+  }
+
+  &-form {
+    margin-top: 7px;
+    margin-right: 25px;
+
+    label {
+      font-size: 16px;
+      color: #f5f5f5;
+      padding: 5px 5px;
+      background-color: #5b5b5b;
+      border-radius: 5px;
+    }
+  }
+
+  &-input {
+
+    &::placeholder {
+      color: rgba(255, 255, 255, .6);
+    }
+    background-color: #5b5b5b;
+    color: #fff;
+    outline: none;
+    border: 0;
+    font-size: 16px;
+
+    &-icon {
+      width: 18px;
+      height: 19px;
+      line-height: 1.5;
+      vertical-align: bottom;
+    }
+  }
+
+  &-sign {
+
+    &-list {
+      display: flex;
+      line-height: 2.1;
+    }
+
+    &-item:last-child {
+      border: 1px solid #fff;
+      border-radius: 5px;
+      padding-left: 10px;
+
+      transition: all .2 linear;
+
+      &:hover {
+        border: 1px solid #d2d2d2;
+      }
+
+      &:hover a{
+        color:#d2d2d2;
+      }
+    }
+
+    &-link {
+      color: #fff;
+      margin-right: 15px;
+    }
+  }
+}
