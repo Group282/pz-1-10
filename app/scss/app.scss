@@ -1,3 +1,154 @@
 @import "variables";
 @import "reset";
 @import "media-query";
+
+body{
+  font:{
+    family: sans-serif;
+    size: 18px;
+  }
+  color: var(--text-color);
+}
+
+.header{
+  background: var(--main-color);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  .header_list-item{
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .header_select{
+    background: none;
+    font: {
+      family: sans-serif;
+      size: 18px;
+    };
+    color: var(--text-color);
+    border: none;
+    .header_list-option{
+      background: var(--main-color);
+      border: 1px solid var(--main-color);
+    }
+  }
+  .header_sign-search{
+    margin-right: 20px;
+    .header_input{
+      border: none;
+      border-radius: 5px;
+      background: gray;
+      width: 200px;
+      height: 25px;
+    }
+    .header_sign-in{
+      font-size: 18px;
+      height: 25px;
+      border: none;
+      background: var(--main-color);
+      color: var(--text-color);
+      margin-left: 10px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .header_sign_up{
+      font-size: 18px;
+      background: var(--main-color);
+      color: var(--text-color);
+      margin-left: 10px;
+      border:{
+        color: var(--text-color);
+        radius: 5px;
+        width: 1px;
+      }
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.body{
+  background: var(--secondary-color);
+  width: 100%;
+  height: 96vh;
+  display: flex;
+  justify-content: space-around;
+  .body_info{
+    width: 45%;
+    padding-top: 10vh;
+    text-align: center;
+    h1{
+      font-size: 36px;
+    }
+    span{
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 20px;
+      width: 70%;
+      font-weight: lighter;
+    }
+  }
+  .body_input{
+    width: 30%;
+    background: var(--text-color);
+    color: #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+    height: max-content;
+    padding: 5vh 50px 5vw;
+    margin-top: 5vw;
+    label{
+      margin-bottom: 5px;
+    }
+    .body_input-username{
+      height: 25px;
+      margin-bottom: 20px;
+      border:{
+        width: 1px;
+        color: rgb(169, 169, 169);
+        radius: 5px;
+      }
+    }
+    .body_input-email{
+      height: 25px;
+      margin-bottom: 20px;
+      border:{
+        width: 1px;
+        color: rgb(169, 169, 169);
+        radius: 5px;
+      }
+    }
+    .body_input-password{
+      height: 25px;
+      margin-bottom: 20px;
+      border:{
+        width: 1px;
+        color: rgb(169, 169, 169);
+        radius: 5px;
+      }
+    }
+    .body_input-submit{
+      height: 60px;
+      font-size: 16px;
+      background: rgb(34, 185, 24);
+      border: none;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      color: var(--text-color);
+      &:hover{
+        cursor: pointer;
+        background: rgba(109, 231, 86, 0.93);
+      }
+    }
+    span{
+      color: gray;
+      font-size: 14px;
+    }
+  }
+}
