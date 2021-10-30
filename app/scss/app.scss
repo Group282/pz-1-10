@@ -2,87 +2,99 @@
 @import "reset";
 @import "media-query";
 
-body{
-  font:{
+body {
+  font: {
     family: sans-serif;
     size: 18px;
   }
-  color: var(--text-color);
+  color: $white;
 }
 
-.header{
-  background: var(--main-color);
+.header {
+  background: $main_color;
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  .header_list-item{
+
+  .header_list-item {
     display: inline-block;
     margin-left: 20px;
   }
-  .header_select{
+
+  .header_select {
     background: none;
     font: {
       family: sans-serif;
       size: 18px;
     };
-    color: var(--text-color);
+    color: $white;
     border: none;
-    .header_list-option{
-      background: var(--main-color);
-      border: 1px solid var(--main-color);
+
+    .header_list-option {
+      background: $main_color;
+      border: 1px solid $main_color;
     }
   }
-  .header_sign-search{
+
+  .header_sign-search {
     margin-right: 20px;
-    .header_input{
+
+    .header_input {
       border: none;
       border-radius: 5px;
       background: gray;
       width: 200px;
       height: 25px;
     }
-    .header_sign-in{
+
+    .header_sign-in {
       font-size: 18px;
       height: 25px;
       border: none;
-      background: var(--main-color);
-      color: var(--text-color);
+      background: $main_color;
+      color: $white;
       margin-left: 10px;
-      &:hover{
+
+      &:hover {
         cursor: pointer;
       }
     }
-    .header_sign_up{
+
+    .header_sign_up {
       font-size: 18px;
-      background: var(--main-color);
-      color: var(--text-color);
+      background: $main_color;
+      color: $white;
       margin-left: 10px;
-      border:{
-        color: var(--text-color);
+      border: {
+        color: $white;
         radius: 5px;
         width: 1px;
       }
-      &:hover{
+
+      &:hover {
         cursor: pointer;
       }
     }
   }
 }
 
-.body{
-  background: var(--secondary-color);
+.body {
+  background: $secondary_color;
   width: 100%;
   height: 96vh;
   display: flex;
   justify-content: space-around;
-  .body_info{
+
+  .body_info {
     width: 45%;
     padding-top: 10vh;
     text-align: center;
-    h1{
+
+    h1 {
       font-size: 36px;
     }
-    span{
+
+    span {
       display: block;
       margin-right: auto;
       margin-left: auto;
@@ -91,9 +103,10 @@ body{
       font-weight: lighter;
     }
   }
-  .body_input{
+
+  .body_input {
     width: 30%;
-    background: var(--text-color);
+    background: $main_color;
     color: #000000;
     border-radius: 10px;
     display: flex;
@@ -102,37 +115,42 @@ body{
     height: max-content;
     padding: 5vh 50px 5vw;
     margin-top: 5vw;
-    label{
+
+    label {
       margin-bottom: 5px;
     }
-    .body_input-username{
+
+    .body_input-username {
       height: 25px;
       margin-bottom: 20px;
-      border:{
+      border: {
         width: 1px;
-        color: rgb(169, 169, 169);
+        color: $l_grey;
         radius: 5px;
       }
     }
-    .body_input-email{
+
+    .body_input-email {
       height: 25px;
       margin-bottom: 20px;
-      border:{
+      border: {
         width: 1px;
-        color: rgb(169, 169, 169);
+        color: $l_grey;
         radius: 5px;
       }
     }
-    .body_input-password{
+
+    .body_input-password {
       height: 25px;
       margin-bottom: 20px;
-      border:{
+      border: {
         width: 1px;
-        color: rgb(169, 169, 169);
+        color: $l_grey;
         radius: 5px;
       }
     }
-    .body_input-submit{
+
+    .body_input-submit {
       height: 60px;
       font-size: 16px;
       background: rgb(34, 185, 24);
@@ -141,13 +159,15 @@ body{
       margin-bottom: 30px;
       border-radius: 5px;
       color: var(--text-color);
-      &:hover{
+
+      &:hover {
         cursor: pointer;
         background: rgba(109, 231, 86, 0.93);
       }
     }
-    span{
-      color: gray;
+
+    span {
+      color: $l_grey;
       font-size: 14px;
     }
   }
