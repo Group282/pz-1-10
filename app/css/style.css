@@ -1,0 +1,260 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default in Bootstrap*/
+/*Small devices (landscape phones, 576px and up)*/
+/*Medium devices (tablets, 768px and up)*/
+/*Large devices (desktops, 992px and up)*/
+/*Extra large devices (large desktops, 1200px and up)*/
+
+body {
+  min-height: 100vh;
+  min-width: 100%;
+  line-height: 1;
+  margin: 0;
+  background: url("../images/background.jpg");
+}
+
+/*Header*/
+
+.header{
+  width: 100%;
+  background: #24292e;
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.header__left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__left-icon{
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+}
+
+.header__left__combobox{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.header__left__combobox-text{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.header__left__combobox-icon{
+  margin-top: 5px;
+}
+
+.header__right{
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__right__search{
+  width: 200px;
+  padding: 8px;
+  border-radius: 5px;
+  background: #2b3137;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__right__search-text{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.header__right__search-icon{
+  height: 18px;
+  width: 18px;
+
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+
+  border: 1px solid #fff;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__right__button{
+  padding: 8px;
+}
+
+.header__right__button-text{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.border{
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+  padding: 60px 0 0 0;
+}
+
+.wrapper__col{
+  width: 50%;
+  height: 91vh;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.wrapper__col__title{
+  align-self: end;
+  width: 55%;
+  margin-right: 15%;
+  font-size: 94px;
+  color: #ffffff;
+}
+
+.wrapper__col__subtitle{
+  align-self: end;
+  width: 55%;
+  margin-right: 15%;
+  font-size: 20px;
+  color: #8a8a8a;
+  line-height: 110%;
+}
+
+.wrapper__col__subtitle-link{
+  color: #ffffff;
+  text-decoration: #8a8a8a;
+}
+
+.wrapper__col__form{
+  width: 52%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+  gap: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.wrapper__col__form__input_block{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.wrapper__col__form__input_block-title{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wrapper__col__form__input_block-input{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #8a8a8a;
+  border-radius: 5px;
+}
+
+.wrapper__col__form-subtext{
+  font-size: 13px;
+  text-align: justify;
+}
+
+.wrapper__col__form-subtext-link{
+  color: #006ee6;
+  text-decoration: none;
+}
+
+.wrapper__col__form-button{
+  width: 100%;
+  height: 60px;
+  background: #2db83d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+  font-size: 20px;
+  color: #fff;
+  border: none;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

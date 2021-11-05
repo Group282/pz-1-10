@@ -12,7 +12,7 @@ const cache = require('gulp-cache');
 const autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
-  return gulp.src('app/scss/app.scss')
+  return gulp.src('app/scss/style.scss')
     .pipe(sass())
     .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {cascade: true}))
     .pipe(gulp.dest('app/css'))
@@ -69,7 +69,7 @@ gulp.task('img', function () {
 gulp.task('copy', async function () {
 
   gulp.src([
-    'app/css/app.css'
+    'app/css/style.css'
   ])
     .pipe(gulp.dest('dist/css'))
 
