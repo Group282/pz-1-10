@@ -117,7 +117,7 @@ body {
       width: 55%;
       margin-right: 15%;
       font-size: 94px;
-      color: $var2fff;
+      color: $var2;
     }
 
     &__subtitle {
@@ -129,7 +129,7 @@ body {
       line-height: 110%;
 
       &-link {
-        color: $var2fff;
+        color: $var2;
         text-decoration: $var5;
       }
     }
@@ -142,7 +142,7 @@ body {
       height: 70%;
       gap: 20px;
       padding: 20px;
-      background: $var2fff;
+      background: $var2;
       border-radius: 5px;
 
       &__input_block {
