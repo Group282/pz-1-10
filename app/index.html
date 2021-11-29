@@ -8,7 +8,67 @@
 </head>
 <body>
 
-<script src="js/bundle.js"></script>
+<header class="header">
+  <div class="header_kuzmenko_navigate">
+    <img  src="./img/git_ikon.png" width="30" height="30" alt="">
+    <ul>
 
+      <li class="header_kuzmenko_list-item">
+        <select class="header_kuzmenko_select">
+          <option value="why" class="header_kuzmenko_list-option">Why GitHub?</option>
+          <option value="about" class="header_kuzmenko_select-list-option">About us</option>
+          <option value="feach" class="header_kuzmenko_select-list-option">GitHub Feach</option>
+        </select>
+      </li>
+      <li class="header_kuzmenko_list-item">
+        <span>Team</span>
+      </li>
+      <li class="header_kuzmenko_list-item">
+        Enterprise
+      </li>
+      <li class="header_kuzmenko_list-item">
+        <select class="header_kuzmenko_select">
+          <option value="explore"class="header_kuzmenko_select-list-option">Explore</option>
+          <option value="deplore" class="header_kuzmenko_select-list-option">Deplore</option>
+        </select>
+      </li>
+      <li class="header_kuzmenko_list-item">
+        <span>Marketplace</span>
+      </li>
+      <li class="header_kuzmenko_list-item">
+        <select class="header_kuzmenko_select">
+          <option value="" class="header_kuzmenko_select-list-option">Pricing</option>
+          <option value="case" class="header_kuzmenko_select-list-option">Case</option>
+        </select>
+      </li>
+    </ul>
+  </div>
+  <div class="header_kuzmenko_sign-search">
+    <input type="search" value="Search GitHub"  class="header_kuzmenko_sign-search-input">
+    <button class="header_kuzmenko_sign-search-sign-in">Sign in</button>
+    <button class="header_kuzmenko_sign-search-sign_up">Sign up</button>
+  </div>
+</header>
+
+<div class="main">
+
+  <div class="main_kuzmenko_info">
+    <h1>Built for developers</h1>
+    <span>GitHubs is a developments platform inspired by the way you work. From <mark>open sourse</mark> to <mark> business</mark>, you can host and review code,
+      manage projects, and built software alongside 50 million developers. </span>
+  </div>
+  <form class="main_kuzmenko_input">
+    <label for="username">Username</label>
+    <input type="text" id="username" class="main_kuzmenko_input-username">
+    <label for="email">Email</label>
+    <input type="email" id="email" class="main_kuzmenko_input-email">
+    <label for="password">Password</label>
+    <input type="password" id="password" class="main_kuzmenko_input-password">
+    <span> Make sure it's at learn 15 characters OR at least 8 characters including a number and a lowercase letter. <a href="">Learn more</a> </span>
+    <input type="submit" class="main_kuzmenko_input-submit" value="Sign up for GitHub">
+    <span>By click "Sing up for GitHub", you agree to our <a href="">Terms of Service</a> and <a href="">Privacy Statement</a>. We'll occasionally send you account related emails.  </span>
+  </form>
+
+</div>
 </body>
 </html>
