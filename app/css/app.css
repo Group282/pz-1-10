@@ -25,9 +25,10 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-body {
+.body {
   line-height: 1;
   margin: 0;
+background-color: #444444;
 }
 
 ol, ul {
@@ -48,10 +49,80 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.header-dropdown{
+  display: flex;
+   gap: 0px !important;;
+}
 
-/* Extra small devices (portrait phones, less than 576px)*/
-/* No media query for `xs` since this is the default in Bootstrap*/
-/*Small devices (landscape phones, 576px and up)*/
-/*Medium devices (tablets, 768px and up)*/
-/*Large devices (desktops, 992px and up)*/
-/*Extra large devices (large desktops, 1200px and up)*/
+.navbar{
+  width: 100%;
+  height: 100%;
+}
+
+
+.d-flex{
+  display: flex;
+  height: 100%;
+  width: 30%;
+  margin-right: 50px;
+}
+.btn{
+  width: 100%;
+ height: 100%;
+}
+.d-flex > button{
+
+height: 100%;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: column;
+}
+
+.img-input{
+  
+}
+
+.img-input{
+    margin: 25px 50px 25px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.img-input h1,p{
+  color: wheat;
+}
+
+.form-control{
+  color:black;
+}
+
+.img-input--text{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding-top: 150px;
+  padding-left: 50px;
+
+}
+.img-input--login h5{
+  color: black;
+}
+.img-input--login{
+  width: 30%;
+  padding: 5px;
+
+  border-radius: 10px;
+ background-color:white;
+}
+.img-input--login p{
+  padding-top: 15px;
+  color:#444444;
+}
+
+.img-input--login button{
+  padding-left: 10px;
+  color: black;
+}

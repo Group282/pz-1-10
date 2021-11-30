@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/Group282/pz-1-10.git"
   },
-  "author": "",
+  "author": "Roman Holota",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Group282/pz-1-10/issues"
@@ -32,5 +32,8 @@
     "gulp-uglifyjs": "^0.6.2",
     "imagemin-pngquant": "^9.0.2",
     "sass": "^1.41.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
