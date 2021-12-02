@@ -1,0 +1,95 @@
+.main {
+  background: $secondary_color;
+  width: 100%;
+  height: 96vh;
+  display: flex;
+  justify-content: space-around;
+
+  &__info {
+    width: 45%;
+    padding-top: 10vh;
+    text-align: center;
+
+    h1 {
+      font-size: 36px;
+    }
+
+    span {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 20px;
+      width: 70%;
+      font-weight: lighter;
+    }
+  }
+
+  &__input {
+    width: 30%;
+    background: $main_color;
+    color: #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+    height: max-content;
+    padding: 5vh 50px 5vw;
+    margin-top: 5vw;
+    color: white;
+
+    label {
+      margin-bottom: 5px;
+    }
+
+    &-username {
+      height: 25px;
+      margin-bottom: 20px;
+      border: {
+        width: 1px;
+        color: $l_grey;
+        radius: 5px;
+      }
+    }
+
+    &-email {
+      height: 25px;
+      margin-bottom: 20px;
+      border: {
+        width: 1px;
+        color: $l_grey;
+        radius: 5px;
+      }
+    }
+
+    &-password {
+      height: 25px;
+      margin-bottom: 20px;
+      border: {
+        width: 1px;
+        color: $l_grey;
+        radius: 5px;
+      }
+    }
+
+    &-submit {
+      height: 60px;
+      font-size: 16px;
+      background: rgb(34, 185, 24);
+      border: none;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      color: var(--text-color);
+
+      &:hover {
+        cursor: pointer;
+        background: rgba(109, 231, 86, 0.93);
+      }
+    }
+
+    span {
+      color: $l_grey;
+      font-size: 14px;
+    }
+  }
+}

@@ -5,11 +5,9 @@
 ### Acceptance criteria
 * Use css media queries
 * Use scss 
-* Use scss variables
+* Use css variables
 * Add sourcemap for scss 
 * Markups must be adaptive and responsive according to BEM methodology
-
-![image4](https://user-images.githubusercontent.com/10829855/139446331-d7725b7c-3eef-48cf-991f-ca58d4f889f7.png)
 
 # Directory Structure
 
