@@ -1,6 +1,4 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
-# compiled output
+/app/css/app.css
 /dist
 /gzipped
 /tmp
@@ -9,11 +7,7 @@
 /docs
 /tests/kendo-themes/tests/visual/styles
 /cypress
-
-# dependencies
 /node_modules
-
-# IDEs and editors
 /.idea
 .project
 .classpath
@@ -21,11 +15,7 @@
 *.launch
 .settings/
 *.sublime-workspace
-
-# IDE - VSCode
 .vscode/*
-
-# misc
 /.sass-cache
 /connect.lock
 /coverage
@@ -35,8 +25,6 @@ yarn-error.log
 testem.log
 /typings
 /.favorites.json
-
-# System Files
 .DS_Store
 Thumbs.db
 
@@ -45,16 +33,12 @@ report.*.json
 /.vs
 report.*.json
 
-# Local configuration
 /apps/portal-web/src/assets/env/local/*
 /apps/thirdparty-web/src/assets/env/local/*
 *.log
 
-# Versioning file
 version.ts
 /.scannerwork/
-
-# YARN v2
 .yarn/*
 !.yarn/patches
 !.yarn/releases
