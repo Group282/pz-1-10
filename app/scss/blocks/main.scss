@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-around;
 
-  &_info {
+  &__info {
     width: 45%;
     padding-top: 10vh;
     text-align: center;
@@ -21,19 +21,13 @@
       margin-top: 20px;
       width: 70%;
       font-weight: lighter;
-      color: $text_color_grey;
     }
-
-    mark{
-      color: $white;
-      background-color: transparent;
-    }
-
   }
 
-  &_input {
+  &__input {
     width: 30%;
-    background: $color_registration;
+    background: $main_color;
+    color: #000000;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -41,7 +35,7 @@
     height: max-content;
     padding: 5vh 50px 5vw;
     margin-top: 5vw;
-    color: $text_color_balck;
+    color: white;
 
     label {
       margin-bottom: 5px;
@@ -80,16 +74,16 @@
     &-submit {
       height: 60px;
       font-size: 16px;
-      background: $registration_color;
+      background: rgb(34, 185, 24);
       border: none;
       margin-top: 20px;
       margin-bottom: 30px;
       border-radius: 5px;
-      color: $text_color_white;
+      color: var(--text-color);
 
       &:hover {
         cursor: pointer;
-        background: $registration_color;
+        background: rgba(109, 231, 86, 0.93);
       }
     }
 
@@ -97,11 +91,5 @@
       color: $l_grey;
       font-size: 14px;
     }
-
-    a{
-      color: $href_color;
-      text-decoration: none;
-    }
-
   }
 }

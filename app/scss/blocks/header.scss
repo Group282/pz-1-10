@@ -1,25 +1,15 @@
-.anlife_header {
+.header {
   background: $main_color;
   padding: 10px;
   display: flex;
   justify-content: space-between;
 
-
-
-  &_navigate{
-    display: flex;
-    align-items: center;
-  }
-
-  &_list-item {
-
+  &__list-item {
     display: inline-block;
-
     margin-left: 20px;
-
   }
 
-  &_select {
+  &__select {
     background: none;
     font: {
       family: sans-serif;
@@ -28,17 +18,14 @@
     color: $white;
     border: none;
 
-
     &-list-option {
       background: $main_color;
       border: 1px solid $main_color;
     }
   }
 
-  &_sign-search {
-    display: flex;
+  &__sign-search {
     margin-right: 20px;
-    align-items: center;
 
     &-input {
       border: none;
@@ -46,8 +33,6 @@
       background: gray;
       width: 200px;
       height: 25px;
-      color: $text_color_white
-
     }
 
     &-sign-in {
