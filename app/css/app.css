@@ -19,7 +19,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -48,13 +47,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-/* Extra small devices (portrait phones, less than 576px)*/
-/* No media query for `xs` since this is the default in Bootstrap*/
-/*Small devices (landscape phones, 576px and up)*/
-/*Medium devices (tablets, 768px and up)*/
-/*Large devices (desktops, 992px and up)*/
-/*Extra large devices (large desktops, 1200px and up)*/
 .header {
   background: rgba(0, 16, 22, 0.93);
   padding: 10px;
