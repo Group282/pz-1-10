@@ -1,13 +1,12 @@
 @import "variables";
 @import "reset";
 @import "media-query";
-@import "blocks/header";
-@import "blocks/main";
+@import "header/header";
+@import "main/main";
 
 body {
   font: {
     family: sans-serif;
     size: 18px;
   }
-  color: $white;
 }

@@ -1,0 +1,47 @@
+.sign-search{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: $--font-family-header-text;
+  font-size: 14px;
+  color: $--color-input-color;
+
+  &__input{
+    width: 50%;
+    height: 45%;
+    background: $--background-input-color;
+    border-color: #57606a;
+    color: $--color-input-color;
+    border-radius: 4px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    input{
+      border: 0;
+      background: $--background-input-color;
+      width: 70%;
+      color: $--color-input-color;
+    }
+  }
+
+  &__span{
+    margin-right: 5px;
+
+    &_border{
+      margin-top: 5px;
+      text-align: center;
+      height: 40%;
+      width: 14%;
+      border: $--color-input-color 1px solid;
+      border-radius: 4px;
+      padding-top: 6px;
+
+    }
+  }
+}

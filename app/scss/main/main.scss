@@ -1,0 +1,13 @@
+@import "main-form/main-form";
+@import "main-text/main-text";
+
+.main{
+  width: 100vw;
+  height: 90vh;
+  background: $--background-main-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: $--font-family-main-text;
+}

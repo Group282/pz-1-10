@@ -1,0 +1,36 @@
+
+
+.navigate {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: $--color-svg-color;
+  font-family: $--font-family-header-text;
+  font-size: 14px;
+
+  .navigate__emblema {
+    fill: $--color-svg-color;
+    width: 10%;
+    margin-right: 5px;
+    height: 34px;
+
+
+  }
+
+  &__list {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    select{
+      background-color: $--background-header-color;
+      color: $--color-svg-color;
+      font-family: $--font-family-header-text;
+      font-size: 14px;
+      border: none;
+    }
+  }
+}

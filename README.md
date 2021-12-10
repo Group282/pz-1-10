@@ -29,7 +29,7 @@ Follow this pattern for organization of developed components.
 ├──.CHANGELOG.md
 ├──.gulpfile.js
 ├──README.md
-├──package.json
+    ├──package.json
 └── 
 ```
 
