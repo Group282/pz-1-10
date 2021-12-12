@@ -1,7 +1,5 @@
-
-
 .navigate {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -9,14 +7,26 @@
   font-family: $--font-family-header-text;
   font-size: 14px;
 
+  &_display_desktop{
+    .navigate__emblema{
+      margin-left: 5px;
+      width: 10%;
+    }
+  }
+
+  &_display_small{
+    .navigate__emblema{
+      margin-left: 10px;
+      width: 15%;
+    }
+  }
+
   .navigate__emblema {
     fill: $--color-svg-color;
-    width: 10%;
-    margin-right: 5px;
     height: 34px;
-
-
+    margin-right: 5px;
   }
+
 
   &__list {
     width: 90%;

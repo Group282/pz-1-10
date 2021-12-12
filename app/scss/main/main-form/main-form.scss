@@ -1,5 +1,9 @@
 .main-form{
-  width: 50%;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-top: 50px;
+  height: 550px;
 
   .form-content{
     width: 50%;

@@ -1,0 +1,47 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+
+.sign-search_display_desktop, .navigate_display_desktop{
+  display: none;
+}
+
+.sign-search_display_small, .navigate_display_small{
+  display: flex;
+}
+
+@media (min-width: 576px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*Extra large devices (large desktops, 1012px and up)*/
+@media (min-width: 1012px) {
+  .main{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sign-search{
+    display: flex;
+    margin-top: 20px;
+    align-items: baseline;
+  }
+
+  .sign-search_display_small, .navigate_display_small{
+    display: none;
+  }
+  .sign-search_display_desktop, .navigate_display_desktop{
+    display: flex;
+  }
+}

@@ -49,14 +49,8 @@ table {
   border-spacing: 0;
 }
 
-/* Extra small devices (portrait phones, less than 576px)*/
-/* No media query for `xs` since this is the default in Bootstrap*/
-/*Small devices (landscape phones, 576px and up)*/
-/*Medium devices (tablets, 768px and up)*/
-/*Large devices (desktops, 992px and up)*/
-/*Extra large devices (large desktops, 1200px and up)*/
 .navigate {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -64,11 +58,18 @@ table {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 14px;
 }
+.navigate_display_desktop .navigate__emblema {
+  margin-left: 5px;
+  width: 10%;
+}
+.navigate_display_small .navigate__emblema {
+  margin-left: 10px;
+  width: 15%;
+}
 .navigate .navigate__emblema {
   fill: white;
-  width: 10%;
-  margin-right: 5px;
   height: 34px;
+  margin-right: 5px;
 }
 .navigate__list {
   width: 90%;
@@ -87,7 +88,7 @@ table {
 
 .sign-search {
   height: 100%;
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -95,6 +96,13 @@ table {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 14px;
   color: #dbdee0;
+}
+.sign-search_display_small .sign-search__span {
+  width: 40%;
+}
+.sign-search_display_small .sign-search__svg-min {
+  margin-left: 5px;
+  fill: white;
 }
 .sign-search__input {
   width: 50%;
@@ -121,7 +129,7 @@ table {
 .sign-search__span_border {
   margin-top: 5px;
   text-align: center;
-  height: 40%;
+  height: 30%;
   width: 14%;
   border: #dbdee0 1px solid;
   border-radius: 4px;
@@ -139,7 +147,11 @@ table {
 }
 
 .main-form {
-  width: 50%;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-top: 50px;
+  height: 550px;
 }
 .main-form .form-content {
   width: 50%;
@@ -186,13 +198,15 @@ table {
 }
 
 .main-text {
-  width: 50%;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: baseline;
 }
 .main-text__gap {
+  height: 100px;
   width: 40%;
 }
 .main-text__content {
@@ -220,10 +234,9 @@ table {
 
 .main {
   width: 100vw;
-  height: 90vh;
   background: #2d2e39;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Alliance No.1", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
